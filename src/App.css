@@ -1,0 +1,46 @@
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url('./images/background.jpg');  
+  background-size: cover;
+    background-position: center;
+}
+.App{
+  background-color: rgba(231, 76, 60 ,0.7);
+  min-height:500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+#to-do-form input{
+  background-color: rgba(250, 219, 216, 0.6);
+  border: 0; 
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+#to-do-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color:rgba(247, 220, 111, 0.8); 
+  cursor: pointer;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: chocolate;
+  font-weight: 700;
+  font-size: 18px;
+}
+#to-do-form button:focus{
+  outline: none;
+}
